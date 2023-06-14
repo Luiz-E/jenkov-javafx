@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.jenkovcourse.ControllerFXML">
+
+    <Label fx:id="label1" text="Hello world FXML"/>
+    <Button fx:id="button1" text="Click here" onAction="#reactToClick">
+        <style>
+            -fx-padding:10;
+            -fx-border-width: 3;
+        </style>
+    </Button>
+
+</VBox>
